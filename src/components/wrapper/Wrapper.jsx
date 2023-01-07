@@ -5,7 +5,7 @@ const Wrapper = () => {
   const data = [
     {
       cover: <i class='fa-solid fa-truck-fast'></i>,
-      title: "Worldwide Delivery",
+      title: "Accessible dans tout le territoire Algérien",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
     {
@@ -20,7 +20,7 @@ const Wrapper = () => {
     },
     {
       cover: <i class='fa-solid fa-headset'></i>,
-      title: "24/7 Support ",
+      title: "Continual Support ",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
   ]
