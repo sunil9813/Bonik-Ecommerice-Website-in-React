@@ -1,5 +1,5 @@
 {
-  "name": "bonik-shop",
+  "name": "TP-IGLL",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,8 +12,9 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^5.0.0",
     "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.3",

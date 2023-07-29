@@ -3,48 +3,40 @@ import React from "react"
 const Catg = () => {
   const data = [
     {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Apple",
+      cateName: "Terrain",
     },
     {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Samasung",
+      cateName: "Appartement",
     },
     {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Oppo",
+      cateName: "Villa",
     },
     {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Vivo",
+      cateName: "Studio",
     },
     {
-      cateImg: "./images/category/cat-1.png",
-      cateName: "Redimi",
+      cateName: "Chambre",
     },
     {
-      cateImg: "./images/category/cat-2.png",
-      cateName: "Sony",
+      cateName: "Garage",
     },
   ]
   return (
     <>
       <div className='category'>
-        <div className='chead d_flex'>
-          <h1>Brands </h1>
-          <h1>Shops </h1>
+        <div className='h'>
+
+          <h>Propositions </h>
         </div>
         {data.map((value, index) => {
           return (
             <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
+             
               <span>{value.cateName}</span>
+             
             </div>
           )
         })}
-        <div className='box box2'>
-          <button>View All Brands</button>
-        </div>
       </div>
     </>
   )
