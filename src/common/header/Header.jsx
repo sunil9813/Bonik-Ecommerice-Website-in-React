@@ -4,6 +4,7 @@ import Head from "./Head"
 import Search from "./Search"
 import Navbar from "./Navbar"
 
+// header
 const Header = ({ CartItem }) => {
   return (
     <>
